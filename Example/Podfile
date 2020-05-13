@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RGSecurePassword_Example' do
+  pod 'RGSecurePassword', :path => '../'
+
+  target 'RGSecurePassword_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
