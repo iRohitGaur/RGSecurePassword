@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<img src="images/rgsp.gif" height="400">
+
 ## Installation
 
 RGSecurePassword is available through [CocoaPods](https://cocoapods.org). To install
@@ -29,7 +31,7 @@ Use it simply by passing the values:
 ```ruby
 yourLabel.text = RGSecurePassword.get(pool: .default, length: 12)
 ```
-You can change the length and pool type as per your wish.
+You can change the pool type and length as per your wish.
 
 ## Author
 
