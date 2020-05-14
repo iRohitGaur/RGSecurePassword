@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 RGSecurePassword is available through [CocoaPods](https://cocoapods.org). To install
@@ -19,6 +17,19 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'RGSecurePassword'
 ```
+## Usage
+
+Import it in your file:
+
+```ruby
+import RGSecurePassword
+```
+Use it simply by passing the values:
+
+```ruby
+yourLabel.text = RGSecurePassword.get(pool: .default, length: 12)
+```
+You can change the length and pool type as per your wish.
 
 ## Author
 
