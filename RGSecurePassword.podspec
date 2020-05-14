@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Generate secure passwords for your iOS apps offline and quick.'
                        DESC
 
   s.homepage         = 'https://github.com/iRohitGaur/RGSecurePassword'
@@ -30,7 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'RGSecurePassword/Source/**/*'
+  s.source_files = 'Source/**/*.swift'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+      "ios": "13.0"
+  }
   
   # s.resource_bundles = {
   #   'RGSecurePassword' => ['RGSecurePassword/Assets/*.png']
