@@ -1,0 +1,16 @@
+PODS:
+  - RGSecurePassword (0.1.0)
+
+DEPENDENCIES:
+  - RGSecurePassword (from `../`)
+
+EXTERNAL SOURCES:
+  RGSecurePassword:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RGSecurePassword: c0584d040386d10db6c28145575715d1a5076d95
+
+PODFILE CHECKSUM: d5e8baaee3900ea89cf3849e8d293bfbdfae0aa6
+
+COCOAPODS: 1.9.1

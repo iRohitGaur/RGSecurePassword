@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,13 +15,257 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gei-Qd-2RT">
+                                <rect key="frame" x="20" y="658" width="374" height="184"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gL4-j6-9Ke">
+                                        <rect key="frame" x="8" y="56" width="358" height="50"/>
+                                        <color key="backgroundColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="c0w-Xz-YPy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Generated Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3A-VL-F82">
+                                        <rect key="frame" x="8" y="8" width="358" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="32z-5t-e32"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c3v-yt-N1M">
+                                        <rect key="frame" x="8" y="114" width="358" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MgK-Ht-SQV">
+                                                <rect key="frame" x="0.0" y="0.0" width="358" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbh-MI-Wcg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120.5" height="50"/>
+                                                        <color key="backgroundColor" red="0.52941176469999995" green="0.51764705879999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="16"/>
+                                                        <state key="normal" title="Copy">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="copyPassword:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="X1k-iW-bnt"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gmh-IC-wA1">
+                                                        <rect key="frame" x="128.5" y="0.0" width="229.5" height="50"/>
+                                                        <color key="backgroundColor" red="0.52941176469999995" green="0.51764705879999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="16"/>
+                                                        <state key="normal" title="Generate">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="generatePassword:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="r4Y-M9-fhc"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="MgK-Ht-SQV" secondAttribute="trailing" id="AKj-K5-91r"/>
+                                            <constraint firstAttribute="height" constant="50" id="DmQ-yL-owo"/>
+                                            <constraint firstItem="MgK-Ht-SQV" firstAttribute="leading" secondItem="c3v-yt-N1M" secondAttribute="leading" id="jsv-pc-gJu"/>
+                                            <constraint firstItem="MgK-Ht-SQV" firstAttribute="top" secondItem="c3v-yt-N1M" secondAttribute="top" id="m7S-9J-vpy"/>
+                                            <constraint firstAttribute="bottom" secondItem="MgK-Ht-SQV" secondAttribute="bottom" id="p1N-J4-vTU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="c3v-yt-N1M" firstAttribute="leading" secondItem="gei-Qd-2RT" secondAttribute="leading" constant="8" id="9PD-a3-avr"/>
+                                    <constraint firstItem="gL4-j6-9Ke" firstAttribute="leading" secondItem="gei-Qd-2RT" secondAttribute="leading" constant="8" id="Tbl-M8-H5K"/>
+                                    <constraint firstItem="E3A-VL-F82" firstAttribute="leading" secondItem="gei-Qd-2RT" secondAttribute="leading" constant="8" id="VP0-Ib-AFb"/>
+                                    <constraint firstAttribute="height" constant="184" id="aT4-vN-gik"/>
+                                    <constraint firstItem="E3A-VL-F82" firstAttribute="top" secondItem="gei-Qd-2RT" secondAttribute="top" constant="8" id="bsp-MB-QkT"/>
+                                    <constraint firstAttribute="bottom" secondItem="c3v-yt-N1M" secondAttribute="bottom" constant="20" id="cPg-nT-XqU"/>
+                                    <constraint firstAttribute="trailing" secondItem="c3v-yt-N1M" secondAttribute="trailing" constant="8" id="ekI-T5-47h"/>
+                                    <constraint firstAttribute="trailing" secondItem="gL4-j6-9Ke" secondAttribute="trailing" constant="8" id="g0l-vo-rZG"/>
+                                    <constraint firstAttribute="trailing" secondItem="E3A-VL-F82" secondAttribute="trailing" constant="8" id="l2y-Cw-fPK"/>
+                                    <constraint firstItem="c3v-yt-N1M" firstAttribute="top" secondItem="gL4-j6-9Ke" secondAttribute="bottom" constant="8" id="nsB-IC-KJK"/>
+                                    <constraint firstItem="gL4-j6-9Ke" firstAttribute="top" secondItem="E3A-VL-F82" secondAttribute="bottom" constant="8" id="wXe-yZ-bKv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLf-j7-fzP">
+                                <rect key="frame" x="20" y="434" width="374" height="216"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOD-QY-kzZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="80"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password Length: ( scroll to change )" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTm-uP-eZl">
+                                                <rect key="frame" x="0.0" y="0.0" width="266" height="80"/>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJF-3I-068">
+                                                <rect key="frame" x="274" y="0.0" width="100" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="S1v-qd-Ygj"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="NSz-Ta-xRS"/>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="kfB-Au-6VZ"/>
+                                                </connections>
+                                            </pickerView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="YTm-uP-eZl" firstAttribute="leading" secondItem="fOD-QY-kzZ" secondAttribute="leading" id="9Ox-5t-cPE"/>
+                                            <constraint firstItem="yJF-3I-068" firstAttribute="top" secondItem="fOD-QY-kzZ" secondAttribute="top" id="OVb-ap-PH7"/>
+                                            <constraint firstAttribute="bottom" secondItem="yJF-3I-068" secondAttribute="bottom" id="XoP-gM-cwV"/>
+                                            <constraint firstItem="yJF-3I-068" firstAttribute="leading" secondItem="YTm-uP-eZl" secondAttribute="trailing" constant="8" id="bkN-fT-p8E"/>
+                                            <constraint firstItem="YTm-uP-eZl" firstAttribute="top" secondItem="fOD-QY-kzZ" secondAttribute="top" id="jRo-nn-lHo"/>
+                                            <constraint firstAttribute="bottom" secondItem="YTm-uP-eZl" secondAttribute="bottom" id="q3F-Sy-pm2"/>
+                                            <constraint firstAttribute="height" constant="80" id="w5c-rh-Vjh"/>
+                                            <constraint firstAttribute="trailing" secondItem="yJF-3I-068" secondAttribute="trailing" id="xmz-he-hIW"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGY-Z8-GMu">
+                                        <rect key="frame" x="0.0" y="88" width="374" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Include Symbols: ( e.g. %@$# )" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ll0-Md-itJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="297" height="60"/>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="INE-0O-mdv">
+                                                <rect key="frame" x="305" y="15" width="51" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="7BX-X2-1HH"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="switchSymbolsNumbers:" destination="vXZ-lx-hvc" eventType="valueChanged" id="f66-vD-eKi"/>
+                                                </connections>
+                                            </switch>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="ll0-Md-itJ" firstAttribute="leading" secondItem="WGY-Z8-GMu" secondAttribute="leading" id="6aj-CV-3wT"/>
+                                            <constraint firstAttribute="bottom" secondItem="INE-0O-mdv" secondAttribute="bottom" constant="15" id="7Hm-5C-IVE"/>
+                                            <constraint firstAttribute="trailing" secondItem="INE-0O-mdv" secondAttribute="trailing" constant="20" id="cTv-6X-ka4"/>
+                                            <constraint firstItem="ll0-Md-itJ" firstAttribute="top" secondItem="WGY-Z8-GMu" secondAttribute="top" id="d4t-8R-9Vl"/>
+                                            <constraint firstItem="INE-0O-mdv" firstAttribute="top" secondItem="WGY-Z8-GMu" secondAttribute="top" constant="15" id="gcl-Dk-lYB"/>
+                                            <constraint firstItem="INE-0O-mdv" firstAttribute="leading" secondItem="ll0-Md-itJ" secondAttribute="trailing" constant="8" id="nQs-UT-oZi"/>
+                                            <constraint firstAttribute="bottom" secondItem="ll0-Md-itJ" secondAttribute="bottom" id="nvU-cY-cOk"/>
+                                            <constraint firstAttribute="height" constant="60" id="py7-iP-xad"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8i-ab-aCF">
+                                        <rect key="frame" x="0.0" y="156" width="374" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Include Numbers: ( e.g. 12345 )" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDC-JW-b7l">
+                                                <rect key="frame" x="0.0" y="0.0" width="297" height="60"/>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EFM-35-eSv">
+                                                <rect key="frame" x="305" y="15" width="51" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="APw-OB-SnD"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="switchSymbolsNumbers:" destination="vXZ-lx-hvc" eventType="valueChanged" id="pFx-K3-VRL"/>
+                                                </connections>
+                                            </switch>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="EFM-35-eSv" secondAttribute="trailing" constant="20" id="3O5-K5-UyU"/>
+                                            <constraint firstItem="EFM-35-eSv" firstAttribute="top" secondItem="E8i-ab-aCF" secondAttribute="top" constant="15" id="5TR-ku-Ogn"/>
+                                            <constraint firstItem="UDC-JW-b7l" firstAttribute="leading" secondItem="E8i-ab-aCF" secondAttribute="leading" id="9wn-Ue-9aa"/>
+                                            <constraint firstItem="UDC-JW-b7l" firstAttribute="top" secondItem="E8i-ab-aCF" secondAttribute="top" id="BX8-6l-Jtn"/>
+                                            <constraint firstAttribute="bottom" secondItem="EFM-35-eSv" secondAttribute="bottom" constant="15" id="FlC-oh-sYF"/>
+                                            <constraint firstAttribute="bottom" secondItem="UDC-JW-b7l" secondAttribute="bottom" id="SN1-v7-9dB"/>
+                                            <constraint firstItem="EFM-35-eSv" firstAttribute="leading" secondItem="UDC-JW-b7l" secondAttribute="trailing" constant="8" id="a4d-Ll-Pes"/>
+                                            <constraint firstAttribute="height" constant="60" id="g8R-yc-iqq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="E8i-ab-aCF" secondAttribute="bottom" id="5FD-ai-QBa"/>
+                                    <constraint firstItem="WGY-Z8-GMu" firstAttribute="leading" secondItem="YLf-j7-fzP" secondAttribute="leading" id="BV6-UE-g0U"/>
+                                    <constraint firstItem="WGY-Z8-GMu" firstAttribute="top" secondItem="fOD-QY-kzZ" secondAttribute="bottom" constant="8" id="Tn0-Zy-29r"/>
+                                    <constraint firstAttribute="trailing" secondItem="E8i-ab-aCF" secondAttribute="trailing" id="Xco-hK-dRz"/>
+                                    <constraint firstAttribute="trailing" secondItem="WGY-Z8-GMu" secondAttribute="trailing" id="YTt-25-2h6"/>
+                                    <constraint firstItem="E8i-ab-aCF" firstAttribute="top" secondItem="WGY-Z8-GMu" secondAttribute="bottom" constant="8" id="d5b-7d-G8Y"/>
+                                    <constraint firstItem="WGY-Z8-GMu" firstAttribute="top" secondItem="fOD-QY-kzZ" secondAttribute="bottom" constant="8" id="gNH-nc-xgO"/>
+                                    <constraint firstItem="fOD-QY-kzZ" firstAttribute="leading" secondItem="YLf-j7-fzP" secondAttribute="leading" id="kLu-d0-b5x"/>
+                                    <constraint firstItem="E8i-ab-aCF" firstAttribute="leading" secondItem="YLf-j7-fzP" secondAttribute="leading" id="sWC-Pr-sio"/>
+                                    <constraint firstItem="E8i-ab-aCF" firstAttribute="top" secondItem="WGY-Z8-GMu" secondAttribute="bottom" constant="8" id="x8a-kL-TmA"/>
+                                    <constraint firstItem="fOD-QY-kzZ" firstAttribute="top" secondItem="YLf-j7-fzP" secondAttribute="top" id="yU1-H5-5NE"/>
+                                    <constraint firstAttribute="trailing" secondItem="fOD-QY-kzZ" secondAttribute="trailing" id="ywX-ep-OMR"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDs-GS-8Ts">
+                                <rect key="frame" x="20" y="64" width="374" height="362"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mP7-kI-ghx">
+                                        <rect key="frame" x="4" y="2" width="366" height="358"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mP7-kI-ghx" secondAttribute="trailing" constant="4" id="0rT-Mf-Dyx"/>
+                                    <constraint firstAttribute="bottom" secondItem="mP7-kI-ghx" secondAttribute="bottom" constant="2" id="NNF-YN-pKb"/>
+                                    <constraint firstItem="mP7-kI-ghx" firstAttribute="leading" secondItem="CDs-GS-8Ts" secondAttribute="leading" constant="4" id="qaj-AX-NoM"/>
+                                    <constraint firstItem="mP7-kI-ghx" firstAttribute="top" secondItem="CDs-GS-8Ts" secondAttribute="top" constant="2" id="xFr-mo-gpJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CDs-GS-8Ts" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="DL4-gn-MNq"/>
+                            <constraint firstItem="gei-Qd-2RT" firstAttribute="top" secondItem="YLf-j7-fzP" secondAttribute="bottom" constant="8" id="GDV-KF-R2s"/>
+                            <constraint firstItem="YLf-j7-fzP" firstAttribute="top" secondItem="CDs-GS-8Ts" secondAttribute="bottom" constant="8" id="Gop-NO-aZD"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="gei-Qd-2RT" secondAttribute="bottom" constant="20" id="HZg-zq-Wx2"/>
+                            <constraint firstItem="YLf-j7-fzP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Nxj-b7-EUb"/>
+                            <constraint firstItem="YLf-j7-fzP" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="ROP-FQ-Vqn"/>
+                            <constraint firstItem="gei-Qd-2RT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="WbJ-1F-QnR"/>
+                            <constraint firstItem="gei-Qd-2RT" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="ZAX-Wf-6t1"/>
+                            <constraint firstItem="CDs-GS-8Ts" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="eQg-Nq-5GF"/>
+                            <constraint firstItem="CDs-GS-8Ts" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="hEV-Wh-XC0"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="generatedPassword" destination="gL4-j6-9Ke" id="yZT-Wt-pub"/>
+                        <outlet property="messageBoard" destination="mP7-kI-ghx" id="Nov-ce-Rfo"/>
+                        <outlet property="numbers" destination="EFM-35-eSv" id="3qK-iK-daW"/>
+                        <outlet property="passLengthPicker" destination="yJF-3I-068" id="Yvv-PL-QBh"/>
+                        <outlet property="symbols" destination="INE-0O-mdv" id="3Ol-Px-pCB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
         </scene>
     </scenes>
 </document>

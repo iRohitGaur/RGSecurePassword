@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DFF66C88DA83EEC4C411003C6F9CF8 /* Pods-RGSecurePassword_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3F37F1C797AA7DA471BBD517B1E521 /* Pods-RGSecurePassword_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		360445663F24B3D3B28E7546EAD38484 /* Pods-RGSecurePassword_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F75ED8992A42E64C9A3908F0ED3825F /* Pods-RGSecurePassword_Tests-dummy.m */; };
+		38969139A157D538F10C4E8343E72CC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		409318824E87B85712C35DC25572D325 /* Pods-RGSecurePassword_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38C23507D60E2720CA2BA36048A84E4 /* Pods-RGSecurePassword_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455FB4AB5365DC879BCDFDF0471C15EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		48D3C2E2941A5E895F9FD6AAFADBA21A /* RGSecurePassword-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD36E24E0EE6551FAE0E45748E7971 /* RGSecurePassword-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52742FBBAF9EA6AF3E9D366087B38785 /* Pods-RGSecurePassword_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B5A2C56962DEBB79BF909E25FACDC8 /* Pods-RGSecurePassword_Example-dummy.m */; };
+		9A0E61A1B3C0DA88571EE90B4EAE26D5 /* RGSecurePassword-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D94778DEB4D5BF0BB48BE51877275E7 /* RGSecurePassword-dummy.m */; };
+		D19B5A0A246CF24B00C5D8E1 /* RGSecurePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B5A09246CF24B00C5D8E1 /* RGSecurePassword.swift */; };
+		FD6141FE5ABA14AD318E79C882C4DBB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56387E9FA44857D86E2769D10CAE6889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8BEE6479A4FF4435538D72471E6E65;
+			remoteInfo = "Pods-RGSecurePassword_Example";
+		};
+		EB0A59ABA224572240735D0A2DBD3D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CF325BB6EE1E35CF5BFB7A03A7FAF8;
+			remoteInfo = RGSecurePassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5D9E3539C7C83895103D286C4CD2AC /* RGSecurePassword-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSecurePassword-prefix.pch"; sourceTree = "<group>"; };
+		0E112B1CC934D2D11E5F0CA95AD92D9F /* Pods-RGSecurePassword_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSecurePassword_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		12B5A2C56962DEBB79BF909E25FACDC8 /* Pods-RGSecurePassword_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSecurePassword_Example-dummy.m"; sourceTree = "<group>"; };
+		1FF1C096C46D24AE939008D30C258AB3 /* Pods-RGSecurePassword_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSecurePassword_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ABF411B9C523B47DF39BB1A49D6E544 /* RGSecurePassword-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RGSecurePassword-Info.plist"; sourceTree = "<group>"; };
+		5677452FA4DF74BA4B08D69F3C2E4007 /* Pods-RGSecurePassword_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSecurePassword_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D94778DEB4D5BF0BB48BE51877275E7 /* RGSecurePassword-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RGSecurePassword-dummy.m"; sourceTree = "<group>"; };
+		5F75ED8992A42E64C9A3908F0ED3825F /* Pods-RGSecurePassword_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSecurePassword_Tests-dummy.m"; sourceTree = "<group>"; };
+		62242131305D26F9A63432FB8B49574E /* Pods-RGSecurePassword_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RGSecurePassword_Tests.modulemap"; sourceTree = "<group>"; };
+		6CCEF9887663ED1D56263A41DBA59338 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6E6A95C5C6A40BBF8A3DA80E3324A842 /* Pods_RGSecurePassword_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSecurePassword_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BA45D3112192157618F41A906AFEAC /* RGSecurePassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGSecurePassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C5D38E4FD49CFE84D9901274618403 /* RGSecurePassword.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RGSecurePassword.modulemap; sourceTree = "<group>"; };
+		8C5A81FD3B402D14DC54B5B07995A6C5 /* RGSecurePassword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGSecurePassword.debug.xcconfig; sourceTree = "<group>"; };
+		8D9386C271AEA2EA06DFF64923EECC32 /* Pods-RGSecurePassword_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RGSecurePassword_Example.modulemap"; sourceTree = "<group>"; };
+		8DE61ACD2462967191D479FE2D88C75E /* Pods-RGSecurePassword_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSecurePassword_Example.release.xcconfig"; sourceTree = "<group>"; };
+		932784687A171EF7DA6DE43E56C90634 /* Pods-RGSecurePassword_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSecurePassword_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		942789B3CEA5D51540EB991B503C8703 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A42396B43DA36B99EA11603D23C87BDF /* Pods-RGSecurePassword_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSecurePassword_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5BEA1F8253839A33CBC1FC6A197F7E0 /* Pods-RGSecurePassword_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSecurePassword_Example-Info.plist"; sourceTree = "<group>"; };
+		B2BD6B8775FF79A4A9F7927CF3BDF544 /* RGSecurePassword.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RGSecurePassword.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B38C23507D60E2720CA2BA36048A84E4 /* Pods-RGSecurePassword_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSecurePassword_Example-umbrella.h"; sourceTree = "<group>"; };
+		BFB29F61653D28F0C3E3261A0ED986F1 /* Pods-RGSecurePassword_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSecurePassword_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C39A4758391581894CE3929B82A14B90 /* Pods-RGSecurePassword_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSecurePassword_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC34C0FE8D1325F4342ACFCE369FF26D /* RGSecurePassword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGSecurePassword.release.xcconfig; sourceTree = "<group>"; };
+		CE9DD91D40E9E0823120D217C7125C8B /* Pods-RGSecurePassword_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSecurePassword_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D19B5A09246CF24B00C5D8E1 /* RGSecurePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGSecurePassword.swift; sourceTree = "<group>"; };
+		D685B81A6D97F8539FB40630E80F5F14 /* Pods_RGSecurePassword_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSecurePassword_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AD36E24E0EE6551FAE0E45748E7971 /* RGSecurePassword-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSecurePassword-umbrella.h"; sourceTree = "<group>"; };
+		F84B5D2A7D65B7627E35B3C782AFB737 /* Pods-RGSecurePassword_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSecurePassword_Tests-Info.plist"; sourceTree = "<group>"; };
+		FB3F37F1C797AA7DA471BBD517B1E521 /* Pods-RGSecurePassword_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSecurePassword_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18886C66A1050EA4DF6CFA52277B97C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6141FE5ABA14AD318E79C882C4DBB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4B4A33ED4360C9BFF6974EB36FE73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455FB4AB5365DC879BCDFDF0471C15EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81903C618F5478C7D63B66EF13616F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38969139A157D538F10C4E8343E72CC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD9D87829B60B9DE273D39172CE07A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D685B81A6D97F8539FB40630E80F5F14 /* Pods_RGSecurePassword_Example.framework */,
+				6E6A95C5C6A40BBF8A3DA80E3324A842 /* Pods_RGSecurePassword_Tests.framework */,
+				70BA45D3112192157618F41A906AFEAC /* RGSecurePassword.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9711ACB692D5C052881195BAC325D4 /* RGSecurePassword */ = {
+			isa = PBXGroup;
+			children = (
+				D19B5A08246CF19B00C5D8E1 /* Source */,
+				4A44F05CFB17BDAC491C0CE5D0B63F5C /* Pod */,
+				4B41E3968C1E1F01D235C7964E2328E9 /* Support Files */,
+			);
+			name = RGSecurePassword;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4A44F05CFB17BDAC491C0CE5D0B63F5C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				942789B3CEA5D51540EB991B503C8703 /* LICENSE */,
+				6CCEF9887663ED1D56263A41DBA59338 /* README.md */,
+				B2BD6B8775FF79A4A9F7927CF3BDF544 /* RGSecurePassword.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4B41E3968C1E1F01D235C7964E2328E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C5D38E4FD49CFE84D9901274618403 /* RGSecurePassword.modulemap */,
+				5D94778DEB4D5BF0BB48BE51877275E7 /* RGSecurePassword-dummy.m */,
+				3ABF411B9C523B47DF39BB1A49D6E544 /* RGSecurePassword-Info.plist */,
+				0A5D9E3539C7C83895103D286C4CD2AC /* RGSecurePassword-prefix.pch */,
+				E3AD36E24E0EE6551FAE0E45748E7971 /* RGSecurePassword-umbrella.h */,
+				8C5A81FD3B402D14DC54B5B07995A6C5 /* RGSecurePassword.debug.xcconfig */,
+				CC34C0FE8D1325F4342ACFCE369FF26D /* RGSecurePassword.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RGSecurePassword";
+			sourceTree = "<group>";
+		};
+		5E62EAF9B48249F9742550D47C2DAA05 /* Pods-RGSecurePassword_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62242131305D26F9A63432FB8B49574E /* Pods-RGSecurePassword_Tests.modulemap */,
+				5677452FA4DF74BA4B08D69F3C2E4007 /* Pods-RGSecurePassword_Tests-acknowledgements.markdown */,
+				A42396B43DA36B99EA11603D23C87BDF /* Pods-RGSecurePassword_Tests-acknowledgements.plist */,
+				5F75ED8992A42E64C9A3908F0ED3825F /* Pods-RGSecurePassword_Tests-dummy.m */,
+				F84B5D2A7D65B7627E35B3C782AFB737 /* Pods-RGSecurePassword_Tests-Info.plist */,
+				FB3F37F1C797AA7DA471BBD517B1E521 /* Pods-RGSecurePassword_Tests-umbrella.h */,
+				CE9DD91D40E9E0823120D217C7125C8B /* Pods-RGSecurePassword_Tests.debug.xcconfig */,
+				C39A4758391581894CE3929B82A14B90 /* Pods-RGSecurePassword_Tests.release.xcconfig */,
+			);
+			name = "Pods-RGSecurePassword_Tests";
+			path = "Target Support Files/Pods-RGSecurePassword_Tests";
+			sourceTree = "<group>";
+		};
+		746302EB573783DAA0B41AC7CDD366F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8445591394F21F66CF07D4990FEB3104 /* Pods-RGSecurePassword_Example */,
+				5E62EAF9B48249F9742550D47C2DAA05 /* Pods-RGSecurePassword_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8445591394F21F66CF07D4990FEB3104 /* Pods-RGSecurePassword_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8D9386C271AEA2EA06DFF64923EECC32 /* Pods-RGSecurePassword_Example.modulemap */,
+				932784687A171EF7DA6DE43E56C90634 /* Pods-RGSecurePassword_Example-acknowledgements.markdown */,
+				0E112B1CC934D2D11E5F0CA95AD92D9F /* Pods-RGSecurePassword_Example-acknowledgements.plist */,
+				12B5A2C56962DEBB79BF909E25FACDC8 /* Pods-RGSecurePassword_Example-dummy.m */,
+				BFB29F61653D28F0C3E3261A0ED986F1 /* Pods-RGSecurePassword_Example-frameworks.sh */,
+				A5BEA1F8253839A33CBC1FC6A197F7E0 /* Pods-RGSecurePassword_Example-Info.plist */,
+				B38C23507D60E2720CA2BA36048A84E4 /* Pods-RGSecurePassword_Example-umbrella.h */,
+				1FF1C096C46D24AE939008D30C258AB3 /* Pods-RGSecurePassword_Example.debug.xcconfig */,
+				8DE61ACD2462967191D479FE2D88C75E /* Pods-RGSecurePassword_Example.release.xcconfig */,
+			);
+			name = "Pods-RGSecurePassword_Example";
+			path = "Target Support Files/Pods-RGSecurePassword_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D0E6D4C0C081F7E5E380B01D9B01B8A1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1FD9D87829B60B9DE273D39172CE07A4 /* Products */,
+				746302EB573783DAA0B41AC7CDD366F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E6D4C0C081F7E5E380B01D9B01B8A1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F9711ACB692D5C052881195BAC325D4 /* RGSecurePassword */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D19B5A08246CF19B00C5D8E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D19B5A09246CF24B00C5D8E1 /* RGSecurePassword.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		014D0B1034CCA1167595D9A6F512D083 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D3C2E2941A5E895F9FD6AAFADBA21A /* RGSecurePassword-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C35D66357EA2F939DA78277F0EAEB39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DFF66C88DA83EEC4C411003C6F9CF8 /* Pods-RGSecurePassword_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6CDFB0F800C0EA1D0BF5207063D220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409318824E87B85712C35DC25572D325 /* Pods-RGSecurePassword_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65BEB04AF8B3D9EA7EB9B66361EE3569 /* Pods-RGSecurePassword_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242928126F9B4CA167718C29255254A9 /* Build configuration list for PBXNativeTarget "Pods-RGSecurePassword_Tests" */;
+			buildPhases = (
+				0C35D66357EA2F939DA78277F0EAEB39 /* Headers */,
+				E27CD97625AF4847132D05806E59B535 /* Sources */,
+				C81903C618F5478C7D63B66EF13616F8 /* Frameworks */,
+				EDB32154139F79C1E7243935F3E87E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E243FCEEE2FDAF9937FF1216B64D59 /* PBXTargetDependency */,
+			);
+			name = "Pods-RGSecurePassword_Tests";
+			productName = "Pods-RGSecurePassword_Tests";
+			productReference = 6E6A95C5C6A40BBF8A3DA80E3324A842 /* Pods_RGSecurePassword_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D8BEE6479A4FF4435538D72471E6E65 /* Pods-RGSecurePassword_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A310E9CDF704D74641E44C83ABC022A /* Build configuration list for PBXNativeTarget "Pods-RGSecurePassword_Example" */;
+			buildPhases = (
+				FF6CDFB0F800C0EA1D0BF5207063D220 /* Headers */,
+				2C3F09CED902B2F35FCD8CB7C5831487 /* Sources */,
+				18886C66A1050EA4DF6CFA52277B97C1 /* Frameworks */,
+				A80260ADB023DB413A2FADA7BC1DD59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2928AAF44B632F57F3C47C9D1C5609E /* PBXTargetDependency */,
+			);
+			name = "Pods-RGSecurePassword_Example";
+			productName = "Pods-RGSecurePassword_Example";
+			productReference = D685B81A6D97F8539FB40630E80F5F14 /* Pods_RGSecurePassword_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5CF325BB6EE1E35CF5BFB7A03A7FAF8 /* RGSecurePassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53158291563FE7070520E01DE3527DA /* Build configuration list for PBXNativeTarget "RGSecurePassword" */;
+			buildPhases = (
+				014D0B1034CCA1167595D9A6F512D083 /* Headers */,
+				1D6AEED8DBD23C5EACF02FF979BC03DE /* Sources */,
+				7E4B4A33ED4360C9BFF6974EB36FE73E /* Frameworks */,
+				E4678FA3BD68DC321F4B9CAF5A5B207A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGSecurePassword;
+			productName = RGSecurePassword;
+			productReference = 70BA45D3112192157618F41A906AFEAC /* RGSecurePassword.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					F5CF325BB6EE1E35CF5BFB7A03A7FAF8 = {
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FD9D87829B60B9DE273D39172CE07A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D8BEE6479A4FF4435538D72471E6E65 /* Pods-RGSecurePassword_Example */,
+				65BEB04AF8B3D9EA7EB9B66361EE3569 /* Pods-RGSecurePassword_Tests */,
+				F5CF325BB6EE1E35CF5BFB7A03A7FAF8 /* RGSecurePassword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80260ADB023DB413A2FADA7BC1DD59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4678FA3BD68DC321F4B9CAF5A5B207A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB32154139F79C1E7243935F3E87E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6AEED8DBD23C5EACF02FF979BC03DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19B5A0A246CF24B00C5D8E1 /* RGSecurePassword.swift in Sources */,
+				9A0E61A1B3C0DA88571EE90B4EAE26D5 /* RGSecurePassword-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3F09CED902B2F35FCD8CB7C5831487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52742FBBAF9EA6AF3E9D366087B38785 /* Pods-RGSecurePassword_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27CD97625AF4847132D05806E59B535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360445663F24B3D3B28E7546EAD38484 /* Pods-RGSecurePassword_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42E243FCEEE2FDAF9937FF1216B64D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RGSecurePassword_Example";
+			target = 9D8BEE6479A4FF4435538D72471E6E65 /* Pods-RGSecurePassword_Example */;
+			targetProxy = 56387E9FA44857D86E2769D10CAE6889 /* PBXContainerItemProxy */;
+		};
+		E2928AAF44B632F57F3C47C9D1C5609E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RGSecurePassword;
+			target = F5CF325BB6EE1E35CF5BFB7A03A7FAF8 /* RGSecurePassword */;
+			targetProxy = EB0A59ABA224572240735D0A2DBD3D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11E6F972624B199C16778688711F564D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5A81FD3B402D14DC54B5B07995A6C5 /* RGSecurePassword.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RGSecurePassword/RGSecurePassword-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSecurePassword/RGSecurePassword-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSecurePassword/RGSecurePassword.modulemap";
+				PRODUCT_MODULE_NAME = RGSecurePassword;
+				PRODUCT_NAME = RGSecurePassword;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F8AFD85C037A67924A991C8361AF2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC34C0FE8D1325F4342ACFCE369FF26D /* RGSecurePassword.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RGSecurePassword/RGSecurePassword-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSecurePassword/RGSecurePassword-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSecurePassword/RGSecurePassword.modulemap";
+				PRODUCT_MODULE_NAME = RGSecurePassword;
+				PRODUCT_NAME = RGSecurePassword;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7285EBBEA4FAB27F959E0702E04C1464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39A4758391581894CE3929B82A14B90 /* Pods-RGSecurePassword_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSecurePassword_Tests/Pods-RGSecurePassword_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSecurePassword_Tests/Pods-RGSecurePassword_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FC9C40FA99DF456108C360ED092F700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9DD91D40E9E0823120D217C7125C8B /* Pods-RGSecurePassword_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSecurePassword_Tests/Pods-RGSecurePassword_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSecurePassword_Tests/Pods-RGSecurePassword_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B5D841579C0E1D4A7DAB3B9F027E80CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF1C096C46D24AE939008D30C258AB3 /* Pods-RGSecurePassword_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSecurePassword_Example/Pods-RGSecurePassword_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSecurePassword_Example/Pods-RGSecurePassword_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9FC31213D762B050C9C54D53D3F8848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE61ACD2462967191D479FE2D88C75E /* Pods-RGSecurePassword_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSecurePassword_Example/Pods-RGSecurePassword_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSecurePassword_Example/Pods-RGSecurePassword_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242928126F9B4CA167718C29255254A9 /* Build configuration list for PBXNativeTarget "Pods-RGSecurePassword_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC9C40FA99DF456108C360ED092F700 /* Debug */,
+				7285EBBEA4FAB27F959E0702E04C1464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A310E9CDF704D74641E44C83ABC022A /* Build configuration list for PBXNativeTarget "Pods-RGSecurePassword_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D841579C0E1D4A7DAB3B9F027E80CA /* Debug */,
+				D9FC31213D762B050C9C54D53D3F8848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53158291563FE7070520E01DE3527DA /* Build configuration list for PBXNativeTarget "RGSecurePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E6F972624B199C16778688711F564D /* Debug */,
+				2F8AFD85C037A67924A991C8361AF2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
