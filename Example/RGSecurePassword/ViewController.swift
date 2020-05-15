@@ -48,6 +48,10 @@ class ViewController: UIViewController {
     @IBAction func copyPassword(_ sender: Any) {
         let pasteboard = UIPasteboard.general
         pasteboard.string = generatedPassword.text
+        
+        if let string = pasteboard.string {
+            setMessage(message: "Password copied: \(string)")
+        }
     }
     
     @IBAction func generatePassword(_ sender: Any) {
